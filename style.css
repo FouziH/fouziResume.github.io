@@ -1,13 +1,32 @@
-body{
-  background-color: #444444;
-    color:#dddddd;
-  font-family:Arial, Helvetica, sans-serif;
-  margin: 10% 20%
-}
 .exp-header{
   text-align: center;
   text-transform: Uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: px solid #dddddd;
+  border-bottom: px solid #dddddd;
   background-color:rgba(0,0,0,0.1);
+}
+h1 {
+  font-family: Impact, sans-serif;
+  color: Black;
+}
+body{
+background-color: CCCBBC;
+color: Black;
+}
+h5{
+   margin-top: -1em ;
+  margin-bottom: -1em ;
+}
+h3{
+  font-family: Impact, sans-serif;
+}
+h4{
+   font-family: Impact, sans-serif;
+}
+h5{
+font-style: italic;
+ 
+}
+ul{
+  line-height: 1.5;
 }
