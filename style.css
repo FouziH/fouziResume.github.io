@@ -1,80 +1,75 @@
-h1 {
-
-  font-family: Impact, sans-serif;
-
-  color: #CE5937;
-
-}
-
-.exp-header{
-
-  text-align: center;
-
-  text-transform: Uppercase;
-
-  border-top: px solid #dddddd;
-
-  border-bottom: px solid #dddddd;
-
-  background-color:rgba(0,0,0,0.1);
-
-}
-.header img {
-  float: center;
-  width: 100px;
-  height: 100px;
-  background: #555;
-  border-radius: 75%;
-}
-
+*{
+    margin:0;
+   box-sizing: border-box;
   
 }
 
-p.normal{
-
-   font-weight: normal;
-
-}
-p.thick{
-  font-weight : bold;
-}
-
 body{
+    background: url(./white.jpeg);
+    background-size: inherit;
+    background-position: center;
+    background-attachment: scroll;
+    text-transform:none;
+    text-align: justify;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: block;
 
-background-color: #CCCBBC;
-
-color: Black;
 
 }
 
-h5{
-
-   margin-top: -1em ;
-
-  margin-bottom: -1em ;
-
+.personal-information{
+   width: 100%;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform:none;
+    text-align:left; 
+    font-weight: bold;
+    
 }
-
 h3{
-
-  font-family: Impact, sans-serif;
-
+    text-align: center;
+    border: black solid 3px;
+    border-block-color: black;
+    opacity: .8;
+    backdrop-filter: grey;
+   
 }
-
-h4{
-
-   font-family: Impact, sans-serif;
-
+h1{
+    
+    text-align: left;
+    
 }
-
 h5{
-
-font-style: italic;
-
+    font-style: italic;
+    font-weight: bold;
+    
+}
+#underline{
+text-decoration: underline;
+line-height: normal;
+}
+#element-1{
+    float: left;
+    line-height: normal;
+    font-weight: lighter;
+    
+    
+}
+#element-2{
+    float: right;
+    line-height: normal;
+    font-weight: lighter;
+}
+ul, li{
+    list-style-type: square;
+    line-height: normal;
+    
+}
+.checked{
+    color:orange;
 }
 
-ul{
 
-  line-height: 1.5;
 
-}
